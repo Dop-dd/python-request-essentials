@@ -1,0 +1,38 @@
+Method: The GET / http /1.1 in the preceding example, is the HTTP
+method which is case sensitive. Here are some of the HTTP request methods:
+
+°° GET: This fetches information from the given server using the
+given URI.
+°° HEAD: The functionality of this is similar to GET but the difference is,
+it delivers only the status line and header section.
+
+°° POST: This can submit data to the server that we wish to process.
+
+°° PUT: This creates or overwrites all the current representations of the
+target resource, when we intend to create a new URL.
+
+°° DELETE: This removes all the resources that are described by the
+given Request-URI.
+
+°° OPTIONS: This specifies the communication options for a
+request/response cycle. It lets the client to mention different
+options associated with the resource.
+• Request URI: Uniform Resource Identifier (URI) has the ability to recognize
+the name of the resource. In the previous example, the hostname is the
+Request-URI.
+• Request Header fields: If we want to add more information about the
+request, we can use the requests header fields. They are colon-separated
+key value pairs. Some of the request-headers values are:
+
+°° Accept-Charset: This is used to indicate the character sets that are
+acceptable for the response.
+
+°° Authorization: This contains the value of the credentials which has
+the authentication information of the user agent.
+
+°° Host: This identifies the Internet host and port number of the resource
+that has been requested, using the original URI given by the user.
+
+°° User-agent: It accommodates information about the user agent that
+originates the request. This can be used for statistical purposes such
+as tracing the protocol violations
